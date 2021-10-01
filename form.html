@@ -21,14 +21,19 @@
     <h2>Opinion sobre Bill Gates</h2>
     <p>Dejanos tu opinion sobre los diferentes aspectos de Bill Gates, logros, aportaciones, inversiones, etc</p>
     <form name="datos">
-        <input type = "text" label="Nombre">Nombre<br>
-        <input type = "text">Apellidos<br>
-        <input type = "email">E-mail<br>
+        <label for="nombre">Nombre:</label>
+        <input id ="nombre" type = "text"><br>
+        <label for="appellidos">Appellidos:</label>
+        <input id ="appellidos" type = "text"><br>
+        <label for ="email">E-mail:</label>
+        <input id = "email" type = "email"><br>
         <label>Conocías previamente a Bill Gates?</label><br>
-        <input type = "radio" name="option" value="yes" checked>Yes<br>
-        <input type = "radio" name="option" value="no">No<br>
-        <label>Opinion:</label><br>
-        <textarea cols = "25" rows = "12"></textarea><br>
+        <label for = "si">Si</label>
+        <input id = "si" type = "radio" name="option" value="si" checked><br>
+        <label for ="no">No</label>
+        <input id = "no" type = "radio" name="option" value="no"><br>
+        <label for="area">Opinion:</label><br>
+        <textarea id ="area" cols = "25" rows = "12"></textarea><br>
         <input type = "button" value = "Enviar!">
     </form>
 </body>

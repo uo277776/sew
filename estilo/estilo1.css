@@ -1,0 +1,54 @@
+/* Especifidad 001*/
+body{
+    font-family: Tahoma, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/*Especifidad 001*/
+header{
+    background-color: #0053C7;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/*Especifidad 001*/
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+/*Especifidad 001*/
+nav{
+    background-color:#FBFF7A;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+/*Especifidad 002*/
+nav a{
+    padding: 1em;
+    color: black;
+}
+
+main section:first-of-type{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}

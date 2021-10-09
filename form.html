@@ -12,31 +12,49 @@
     <meta name="viewport" content="width=device-width, initial scale=1.0"/>
 
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
-
-    <link rel="shortcut icon" href="multimedia/icono.png" />
 </head>
 
 <body>
-    <h1>Bill Gates</h1>
-    <h2>Opinion sobre Bill Gates</h2>
-    <p>Dejanos tu opinion sobre los diferentes aspectos de Bill Gates, logros, aportaciones, inversiones, etc</p>
-    <form name="datos">
-        <label for="nombre">Nombre:</label>
-        <input id ="nombre" type = "text"><br>
-        <label for="appellidos">Appellidos:</label>
-        <input id ="appellidos" type = "text"><br>
-        <label for ="email">E-mail:</label>
-        <input id = "email" type = "email"><br>
-        <fieldset>
-            <legend>Conocías previamente a Bill Gates?</legend>
-            <label for = "si">Si</label>
-            <input id = "si" type = "radio" name="option" value="si" checked><br>
-            <label for ="no">No</label>
-            <input id = "no" type = "radio" name="option" value="no"><br>
-        </fieldset>
-        <label for="area">Opinion:</label><br>
-        <textarea id ="area" cols = "25" rows = "12"></textarea><br>
-        <input type = "submit" value = "Enviar!">
-    </form>
+    <header>
+        <h1>Bill Gates</h1>
+    </header>
+    <nav>
+        <a title="Inicio" accesskey="I" tabindex="1" href="index.html">Inicio</a>
+        <a title="Premios" accesskey="P" tabindex="2" href="premios.html">Premios</a>
+        <a title="Empresas" accesskey="E" tabindex="3" href="empresas.html">Empresas</a>
+        <a title="Opninion" accesskey="O" tabindex="4" href="form.html">Opinion</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Entrevista El Pais</h2>
+            <p>En Febrero de 2021, La periodista Montserrat Domínguez entrevista  Bill Gates en una charla en la que comparte sus impresiones acerca del futuro de la pandemia mundial.</p>
+            <audio src="multimedia/videoplayback.m4a" controls></audio> 
+        </section>
+        <section>
+            <h2>Opinion sobre Bill Gates</h2>
+            <p>Dejanos tu opinion sobre los diferentes aspectos de Bill Gates, logros, aportaciones, inversiones, etc</p>
+            <form name="datos">
+                <label for="nombre">Nombre:</label>
+                <input id ="nombre" type = "text"><br>
+                <label for="appellidos">Appellidos:</label>
+                <input id ="appellidos" type = "text"><br>
+                <label for ="email">E-mail:</label>
+                <input id = "email" type = "email"><br>
+                <fieldset>
+                    <legend>Conocías previamente a Bill Gates?</legend>
+                    <label for = "si">Si</label>
+                    <input id = "si" type = "radio" name="option" value="si" checked><br>
+                    <label for ="no">No</label>
+                    <input id = "no" type = "radio" name="option" value="no"><br>
+                </fieldset>
+                <label for="area">Opinion:</label><br>
+                <textarea id ="area" cols = "25" rows = "12"></textarea><br>
+                <input type = "submit" value = "Enviar!">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="multimedia/HTML5.png" alt="HTML5 válido!"/>
+    </footer>
 </body>
 </html>

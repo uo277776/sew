@@ -14,6 +14,8 @@ header{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -27,10 +29,10 @@ h1{
 /*Especifidad 001*/
 nav{
     background-color:#FBFF7A;
-    margin: 0;
     display:flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 /*Especifidad 002*/
@@ -39,10 +41,52 @@ nav a{
     color: black;
 }
 
+/*Especifidad 012*/
+main section:first-of-type{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-rows: 0.1fr 1fr;
+    row-gap: 5px;
+    column-gap: 10px;
+    grid-template-areas: 
+    "Titulo Foto"
+    "Texto Foto";
+    margin-left: 30px;
+}
+
+/*Especifidad 013*/
+main section:first-of-type h2{
+    grid-area: Titulo;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*Especifidad 013*/
+main section:first-of-type p{
+    grid-area: Texto;
+    text-align: center;
+    align-self: stretch;
+}
+
+/*Especifidad 013*/
+main section:first-of-type img{
+    grid-area: Foto;
+    margin-top:20px;
+}
+
+@media (max-width:900px){
+    main section:first-of-type{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*Especifidad 001*/
 footer{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 1em;
 }

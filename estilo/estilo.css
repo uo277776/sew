@@ -3,6 +3,7 @@ body{
     font-family: Tahoma, sans-serif;
     color: black;
     background-color: white;
+    display: grid;
 }
 
 /*Especifidad 001*/
@@ -31,7 +32,7 @@ nav{
     background-color:#FBFF7A;
     display:flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
 }
 
@@ -46,7 +47,7 @@ main section:first-of-type{
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 0.1fr 1fr;
     row-gap: 5px;
     column-gap: 10px;
@@ -76,10 +77,19 @@ main section:first-of-type img{
     margin-top:20px;
 }
 
-@media (max-width:900px){
+@media (max-width: 800px){
     main section:first-of-type{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Titulo"
+        "Texto"
+        "Foto";
     }
+}
+
+main section:last-of-type{
+    display: flex;
+    flex-direction: column;
 }
 
 /*Especifidad 001*/

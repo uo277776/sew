@@ -31,7 +31,7 @@ nav{
     background-color:#FBFF7A;
     display:flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 

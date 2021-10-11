@@ -74,6 +74,7 @@ main section:first-of-type p{
 main section:first-of-type img{
     grid-area: Foto;
     margin-top:20px;
+    width:50%;
 }
 
 /*Especifidad 001*/

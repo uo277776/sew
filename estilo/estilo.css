@@ -83,7 +83,6 @@ main section:last-of-type{
 
 main section:last-of-type{
     display: grid;
-    align-items: center;
     justify-items: center;
     grid-template-columns: 1.2fr 1.1fr;
     grid-template-rows: 0.2fr 1.1fr 1.4fr;
@@ -93,6 +92,8 @@ main section:last-of-type{
     "Texto1 Foto"
     "Texto2 Texto3";
     text-align: justify;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 

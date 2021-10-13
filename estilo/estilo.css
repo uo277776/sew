@@ -29,12 +29,18 @@ h1{
 }
 
 /*Especifidad 001*/
+h2{
+    text-decoration: underline black
+}
+
+/*Especifidad 001*/
 nav{
     background-color:#FBFF7A;
     display:flex;
     flex-flow: row;
     justify-content: space-around;
     margin-bottom: 10px;
+    border: 1px solid black;
 }
 
 /*Especifidad 002*/
@@ -42,10 +48,11 @@ nav a{
     padding: 1em;
     color: black;
 }
-
+main section{
+    display:grid;
+}
 /*Especifidad 012*/
 main section:first-of-type{
-    display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: 2fr 1fr;
@@ -78,15 +85,9 @@ main section:first-of-type img{
 }
 
 main section:last-of-type{
-    display: flex;
-    flex-direction: column;
-}
-
-main section:last-of-type{
-    display: grid;
     justify-items: center;
     grid-template-columns: 1.1fr 1.1fr;
-    grid-template-rows: 0.2fr 1.1fr 1.7fr;
+    grid-template-rows: 0.2fr 1fr 1.7fr;
     column-gap: 30px;
     grid-template-areas: 
     "Titulo Titulo"

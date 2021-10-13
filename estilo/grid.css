@@ -1,0 +1,47 @@
+table{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: center;
+    vertical-align: center;
+    padding: 0.2em;
+}
+
+th{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+td{
+    border: 1px solid black;
+}
+
+main section:first-of-type{
+    display: grid;
+    grid-auto-columns: 1.1fr 0.9fr;
+    grid-template-rows: 0.2fr 0.5fr 1.8fr;
+    grid-template-areas:
+    "Titulo Titulo"
+    "Texto Foto"
+    "Tabla Foto";
+    column-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px){
+    main section:first-of-type{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Titulo"
+        "Texto"
+        "Tabla"
+        "Foto";
+    }
+}
+

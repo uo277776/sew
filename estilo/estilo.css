@@ -81,6 +81,25 @@ main section:last-of-type{
     flex-direction: column;
 }
 
+main section:last-of-type{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1.2fr 1.1fr;
+    grid-template-rows: 0.2fr 1.1fr 1.4fr;
+    column-gap: 30px;
+    grid-template-areas: 
+    "Titulo Titulo"
+    "Texto1 Foto"
+    "Texto2 Texto3";
+    text-align: justify;
+}
+
+
+h3{
+    grid-area: Titulo;
+}
+
 /*Especifidad 001*/
 footer{
     background-color: black;
@@ -102,8 +121,19 @@ footer{
         "Foto";
     }
 
+    main section:last-of-type{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "Titulo"
+        "Texto1"
+        "Foto"
+        "Texto2"
+        "Texto3";
+    }
+
     footer{
         grid-template-columns: 1.2fr 1.1fr;
         grid-template-rows: 0.5fr 0.5fr;
+        row-gap: 10px;
     }
 }

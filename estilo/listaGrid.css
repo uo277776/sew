@@ -26,3 +26,7 @@ main header{
     background-color: white;
     color: black;
 }
+
+video{
+    width: 100%;
+}

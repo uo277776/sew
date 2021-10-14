@@ -1,9 +1,6 @@
-main section{
-    display:grid;
-}
-
 /*Especifidad 012*/
 main section:first-of-type{
+    display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: 2fr 1fr;
@@ -35,40 +32,13 @@ main section:first-of-type img{
     margin-top:20px;
 }
 
-main section:last-of-type{
-    justify-items: center;
-    grid-template-columns: 1.1fr 1.1fr;
-    grid-template-rows: 0.2fr 1fr 1.7fr;
-    column-gap: 30px;
-    grid-template-areas: 
-    "Titulo Titulo"
-    "Texto1 Foto"
-    "Texto2 Texto3";
-    text-align: justify;
-    margin-left:10px;
-    margin-right:10px;
-}
-
-h3{
-    grid-area: Titulo;
-}
-
 @media (max-width: 600px){
+    /*Especifidad 012*/
     main section:first-of-type{
         grid-template-columns: 1fr;
         grid-template-areas: 
         "Titulo"
         "Texto"
         "Foto";
-    }
-
-    main section:last-of-type{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "Titulo"
-        "Texto1"
-        "Foto"
-        "Texto2"
-        "Texto3";
     }
 }

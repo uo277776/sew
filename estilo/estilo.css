@@ -49,10 +49,12 @@ nav a{
     color: black;
 }
 
+/*Especifidad 001*/
 main{
-    padding-left: 3em;
-    padding-right: 3em;
+    width: 100%;
 }
+
+/*Especifidad 002*/
 main section{
     display:flex;
     flex-direction: column;
@@ -74,6 +76,7 @@ footer{
 
 
 @media (max-width: 600px){
+    /*Especifidad 001*/
     footer{
         grid-template-columns: 1.2fr 1.1fr;
         grid-template-rows: 0.5fr 0.5fr;

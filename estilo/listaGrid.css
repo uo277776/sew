@@ -1,0 +1,28 @@
+main section:first-of-type{
+    display:flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: square;
+    background-color: red;
+    padding: 1em;
+    border: 20px groove aqua;
+    list-style-position: inside;
+}
+
+li{
+    background-color: #cce5ff;
+    margin: 5px;
+    padding: 0.5em;
+}
+
+strong{
+    color: red;
+}
+
+main header{
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+}

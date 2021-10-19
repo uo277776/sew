@@ -45,10 +45,12 @@ form{
     margin: auto;
 }
 
+/*Especifidad 002*/
 form label{
     font-weight: bold;
 }
 
+/*Especifidad 012*/
 form input[type="text"],
 form input[type="email"], form input[type="date"]{
 	width:180px;
@@ -59,6 +61,7 @@ form input[type="email"], form input[type="date"]{
 	margin:8px 0;
 }
 
+/*Especifidad 012*/
 form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
@@ -69,10 +72,12 @@ form input[type="submit"]{
 	background-color:#000;
 } 
 
+/*Especifidad 001*/
 legend{
     font-weight: bold;
 }
 
+/*Especifidad 001*/
 textarea{
 	width:100%;
 	height:100px;

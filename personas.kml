@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>KmlFile</name>
+	<Style id="personas_style">
+		<IconStyle>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+		</IconStyle>
+    </Style>
+    <Placemark>
+      <name>Nacimiento: Alvaro Rodriguez Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66152243421232, 43.535734345234, 0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

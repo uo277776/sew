@@ -6,10 +6,7 @@
         <Icon>
           <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
         </Icon>
-      </IconStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]><</text>
-      </BalloonStyle>
+</IconStyle>
     </Style>
     <Placemark>
       <name>Nacimiento: Alvaro Rodriguez Gonzalez</name>

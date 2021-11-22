@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Personas</name>
+	<Style id="personas_style">
+		<IconStyle>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+		</IconStyle>
+    </Style>
+    <Placemark>
+      <name>Nacimiento: Alvaro Rodriguez Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66152243421232, 43.535734345234, 0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Jose Antonio Rodriguez Cimadevilla</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Pepe Rodriguez Alvarez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Pepe Rodriguez Alvarez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Jose Rodriguez Fernandez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Jose Rodriguez Fernandez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Emilia Alvarez Villanueva</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Emilia Alvarez Villanueva</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Amparo Cimadevilla Puertas</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Antonio Cimadevilla Garcia</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Antonio Cimadevilla Garcia</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66667, 43.38333, 237.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Maria Puertas Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Maria Puertas Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.57079, 43.38078, 242.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Juana Maria Gonzalez Alfaraz</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66152, 43.53573, 3.05</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Juan Gonzalez Pesquera</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-4.75486, 43.41984, 45.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Juan Gonzalez Pesquera</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66388, 40.96882, 804.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Santos Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-4.75486, 43.41984, 45.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Santos Gonzalez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Benedicta Pesquera</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-4.75486, 43.41984, 45.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Benedicta Pesquera</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.84476, 43.36029, 238.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Carmen Alfaraz Ledesma</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66309, 41.17732, 824.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Jose Manuel Alfaraz Roman</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66309, 41.17732, 824.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Jose Manuel Alfaraz Roman</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66388, 40.96882, 804.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nacimiento: Emerita Hortensia Ledesma Dominguez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66309, 41.17732, 824.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fallecimiento: Emerita Hortensia Ledesma Dominguez</name>
+	    <styleUrl>#personas_style</styleUrl>
+      <Point>
+        <coordinates>-5.66152, 43.53573, 3.05</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

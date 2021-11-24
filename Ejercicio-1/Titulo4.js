@@ -1,1 +1,0 @@
-document.write("<h4>" + cabecera.universidad + "</h4>");

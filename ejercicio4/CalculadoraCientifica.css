@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    background-color: #D0D0D0;
+    border-radius: 10px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr
+}
+
+input:nth-child(1){
+    grid-column: 1/6;
+    resize:none;
+    text-align: right;
+    margin: 10px;
+    background-color: #D0D0D0;
+    font-weight: bold;
+    font-size: 40px;
+    color:black;
+}
+
+input[type="button"]{
+    width: 100px;
+    height: 50px;
+    margin:2px;
+    font-size: 20px;
+    background-color: #D8D8D8;
+}
+
+input[value="0"],input[value="1"], input[value="2"], input[value="3"], input[value="4"], input[value="5"],
+input[value="6"], input[value="7"], input[value="8"], input[value="9"], input[value="10"], input[value="."]{
+    background-color: #FFFFFF
+}
+
+input[value="mrc"], input[value="m+"], input[value="m-"]{
+    background-color: #2D2D2D;
+    color: white;
+}

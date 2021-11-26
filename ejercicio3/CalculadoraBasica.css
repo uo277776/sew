@@ -1,0 +1,48 @@
+/*Especifidad 001*/
+body{
+    color: blacK;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Especifidad 001*/
+main{
+    background-color: #5B4646;
+    border-radius: 10px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+/*Especifidad 011*/
+input:nth-child(1){
+    grid-column: 1/5;
+    text-align: right;
+    font-size: 30px;
+    margin:10px;
+}
+
+/*Especifidad 011*/
+input[type="button"]{
+    width: 75px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/*Especifidad 011*/
+input[value="+"], input[value="-"],
+input[value="/"], input[value="*"]{
+    background-color: #FF6565
+}
+
+/*Especifidad 001*/
+input[value="mrc"], input[value="m+"], input[value="m-"]{
+    background-color: #2D2D2D;
+    color: white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 10</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="Ejercicio10.css" rel="stylesheet"/>
+    <script src="Ejercicio10.js"></script>
+</head>
+<body>
+    <h1>Precios internacionales del petroleo</h1>   
+    <input type="button" value="Actualizar datos" onclick = "petrol.verPrecios()"/>
+    <input type="button" id="divisa" value="Cambiar a Dolares" onclick="petrol.cambiarDivisa()"/>
+    <main>
+        <section id = "litros">
+            <h2>¿Cuantos litros quiero comprar?</h2>
+            <p>Numero de litros: 
+                <input type = "text" id="nlitros" value = "10"/> 
+                <input type="button" value="calcular" onclick="petrol.calcularEuros()"/>
+            </p>
+        </section>
+
+        <section id = "euros">
+            <h2>¿Cuantos litros puedo comprar?</h2>
+            <p> Euros:
+                <input type = "text" id="neuros" value = "10"/> 
+                <input type="button" value="calcular" onclick="petrol.calcularLitros()"/>
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <a href="http://validator.w3.org/check/referer"> <img src="HTML5.png" alt=" HTML5 Válido!" /></a>
+    </footer>
+</body>
+</html>

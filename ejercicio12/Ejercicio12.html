@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Alvaro Rodriguez Gonzalez"/>
+        <meta name="description" content="Leer archivos del equipo con API FILE"/>
+        <meta name="keyworks" content="file, API, XML, JSON, TXT, archivo"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 12</title>
+        <link href="Ejercicio12.css" rel="stylesheet"/>
+        <script src="Ejercicio12.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Ejercicio 12: Uso de API FILE</h1>
+        <p>Uso de File API</p>
+
+        <p>Seleccione los archivos: </p>
+            
+        <p id = "selector">
+            <label for="archivoTexto">Archivos del usuario: </label>
+            <input type="file" id="archivoTexto" onchange="lector.leerArchivoTexto(this.files)"></p>
+    </body>
+</html>

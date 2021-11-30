@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alvaro Rodriguez Gonzalez"/>
+    <meta name="description" content="Calculadora Basica"/>
+    <meta name="keyworks" content="Calculadora, operacion, resta, suma"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src = "CalculadoraBasica.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora Basica</h1>
+    <main> 
+        <label for="pantalla">Calculadora</label>
+        <input type="text" id="pantalla" value="0" title="Pantalla" disabled/>
+
+        <input type="button" value="mrc" onclick="calculadora.guardarMemoria()"/>
+        <input type="button" value="m+" onclick="calculadora.sumarMemoria()"/>
+        <input type="button" value="m-" onclick="calculadora.restarMemoria()"/>
+        <input type="button" value="/" onclick="calculadora.setOperador('/')"/>
+
+        <input type="button" value="7" onclick="calculadora.escribir('7')"/>
+        <input type="button" value="8" onclick="calculadora.escribir('8')"/>
+        <input type="button" value="9" onclick="calculadora.escribir('9')"/>
+        <input type="button" value="*" onclick="calculadora.setOperador('*')"/>
+
+        <input type="button" value="4" onclick="calculadora.escribir('4')"/>
+        <input type="button" value="5" onclick="calculadora.escribir('5')"/>
+        <input type="button" value="6" onclick="calculadora.escribir('6')"/>
+        <input type="button" value="-" onclick="calculadora.setOperador('-')"/>
+
+        <input type="button" value="1" onclick="calculadora.escribir('1')"/>
+        <input type="button" value="2" onclick="calculadora.escribir('2')"/>
+        <input type="button" value="3" onclick="calculadora.escribir('3')"/>
+        <input type="button" value="+" onclick="calculadora.setOperador('+')"/>
+
+        <input type="button" value="0" onclick="calculadora.escribir('0')"/>
+        <input type="button" value="." onclick="calculadora.escribir('.')"/>
+        <input type="button" value="C" onclick="calculadora.borrarTodo()"/>
+        <input type="button" value="=" onclick="calculadora.calcular()"/>
+    </main>
+    <footer>
+        <img src="media/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="media/CSS3.png" alt="CSS3 Válido!"/>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Alvaro Rodriguez Gonzalez"/>
+    <meta name="description" content="Precios internacionales del Petroleo usando Commodities API"/>
+    <meta name="keyworks" content="Petrol, Petroleo, Gas, API"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="Ejercicio10.css" rel="stylesheet"/>
+    <script src="Ejercicio10.js"></script>
+</head>
+<body>
+    <h1>Precios internacionales del petroleo</h1>
+    <p>Uso de Commodities API</p>   
+    <input type="button" value="Actualizar datos" onclick = "petrol.verPrecios()"/>
+    <input type="button" id="divisa" value="Cambiar a Dolares" onclick="petrol.cambiarDivisa()"/>
+    <main>
+        <section id = "litros">
+            <h2>¿Cuantos litros quiero comprar?</h2>
+            <p><label for="nlitros">Numero de litros:</label>
+                <input type = "text" id="nlitros" value = "10"/> 
+                <input type="button" value="calcular" onclick="petrol.calcularEuros()"/>
+            </p>
+        </section>
+
+        <section id = "euros">
+            <h2>¿Cuantos litros puedo comprar?</h2>
+            <p> <label for="neuros">Euros:</label>
+                <input type = "text" id="neuros" value = "10"/> 
+                <input type="button" value="calcular" onclick="petrol.calcularLitros()"/>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <img src="media/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="media/CSS3.png" alt="CSS3 Válido!"/>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,255 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.660067783901522, 43.53390003056543 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Alvaro Rodriguez Gonzalez"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.827282481656194, 43.37572743564383 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Jose Antonio Rodriguez Cimadevilla"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.872216906927782, 43.36943753963569 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Pepe Rodriguez Alvarez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.836621775785942, 43.3679922707839 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Pepe Rodriguez Alvarez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.84502941628413, 43.359016476028714 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Jose Rodriguez Alvarez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.831235473879114, 43.34818309961771 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Jose Rodriguez Alvarez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.865753381170572, 43.36498905793205 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Emilia Alvarez Villanueva"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.8005384927771235, 43.37726792083809 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Emilia Alvarez Villanueva"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.7831405684868695, 43.38149482552279 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Amparo Cimadevilla Puertas"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.822721437581963, 43.37595936034313 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Antonio Cimadevilla Garcia"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.658733782009399, 43.391872388466325 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Antonio Cimadevilla Garcia"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-5.8476236003899125, 43.356241308829766 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Maria Puertas Gonzalez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.574334459705501, 43.378569650536676 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Maria Puertas Gonzalez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.646993905089459, 43.53563393766325 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Juana Maria Gonzalez Alfaraz"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -4.9403889385406465, 43.43780890914901 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Juan Gonzalez Pesquera"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.66817136224922, 40.96807630721934 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Juan Gonzalez Pesquera"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -4.934535761682132, 43.437896731671515 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Santos Gonzalez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.846214262695637, 43.37293204551922 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Santos Gonzalez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -4.937103201692196, 43.44185060866793 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Benedicta Pesquera"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.825045460517493, 43.37780169887166 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Benedicta Pesquera"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.635120717249688, 41.1582741274814 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Carmen Alfaraz Ledesma"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.632733757184103, 41.155778503592366 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Jose Manuel Alfaraz Roman"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.652310322227097, 40.97968673921272 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Jose Manuel Alfaraz Roman"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.632664183400367, 41.159246730151295 ]
+        },
+        "properties": {
+          "name": "Nacimiento: Emerita Hortensia Ledesma Dominguez"
+        }
+      },
+	  {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -5.607999509630947, 43.52489754253008 ]
+        },
+        "properties": {
+          "name": "Fallecimiento: Emerita Hortensia Ledesma Dominguez"
+        }
+      }
+    ]
+  }

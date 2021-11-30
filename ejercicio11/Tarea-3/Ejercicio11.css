@@ -1,0 +1,14 @@
+body{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+}
+ul{
+    border: 1px solid black;
+}
+
+footer{
+    margin:10px;
+}

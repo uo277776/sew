@@ -1,1 +1,0 @@
-Archivo de prueba .txt para mostrar el contenido en el ejercicio 12 haciendo uso de la API FILE de HTML5

@@ -1,0 +1,51 @@
+CREATE TABLE equipos(
+    ID INT(10) NOT NULL PRIMARY KEY, 
+    Nombre VARCHAR(255) NOT NULL,
+    Nacionalidad VARCHAR(255) NOT NULL,
+    Jefe VARCHAR(255) NOT NULL, 
+    Titulos INT(3) NOT NULL 
+);
+
+CREATE TABLE circuitos( 
+    ID INT(10) NOT NULL PRIMARY KEY,
+    Nombre VARCHAR(255) NOT NULL, 
+    Pais VARCHAR(255) NOT NULL, 
+    Longitud INT(5) NOT NULL, 
+    Curvas INT(3) NOT NULL,
+    Capacidad` INT(10) NOT NULL
+);
+
+CREATE TABLE grandespremios( 
+    ID INT(10) NOT NULL PRIMARY KEY,
+    Temporada INT(4) NOT NULL, 
+    Dia DATE NOT NULL,
+    Circuito INT(10) NOT NULL,
+    Vueltas INT(3) NOT NULL,
+    CONSTRAINT FK_GP FOREIGN KEY (Circuito) REFERENCES circutios(ID)
+);
+
+CREATE TABLE pilotos( 
+    ID INT(10) NOT NULL PRIMARY KEY, 
+    Nombre VARCHAR(255) NOT NULL,
+    Apellidos VARCHAR(255) NOT NULL, 
+    Nacionalidad VARCHAR(255) NOT NULL,
+    Dorsal INT(2) NOT NULL, 
+    Victorias INT(4) NOT NULL,
+    ID_Equipo INT(10) NOT NULL,
+    CONSTRAINT FK_pilotos FOREIGN KEY (ID_Equipo) REFERENCES equipos(ID)
+);
+
+CREATE TABLE resultados( 
+    ID_GranPremio INT(10) NOT NULL, 
+    ID_Piloto INT(10) NOT NULL,
+    Parrilla INT(3) NOT NULL,
+    Resultado INT(3) NOT NULL,
+    PRIMARY KEY (ID_GranPremio, ID_Piloto),
+    CONSTRAINT FK_GranPremio FOREIGN KEY (ID_GranPremio) REFERENCES grandespremios(ID),
+    CONSTRAINT FK_PilotosResultados FOREIGN KEY (ID_Piloto) REFERENCES pilotos(ID)
+);
+
+CREATE TABLE puntuacion(
+    Resultado INT(3) NOT NULL PRIMARY KEY,
+    Puntos INT(3) NOT NULL
+);

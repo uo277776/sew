@@ -1,0 +1,11 @@
+body{
+    font-size: 20px;
+    margin: 2%;
+}
+input[type='submit']{
+    font-size: 20px;
+    margin: 10px;
+}
+input[type='text']{
+    margin:5px;
+}
